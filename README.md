@@ -7,11 +7,11 @@ This Application requires an EPANET input file, containing branched or loop netw
 For getting the optimal design, you must specify two extra information:
 
 1. Minimum head required at each junction
-    - to be specified in $meters$ on the `NODES` sub-tab within `MODIFY NETWORK`
+    - to be specified in *meters* on the `NODES` sub-tab within `MODIFY NETWORK`
 
 
 2. List of diameters to be considered for the network design
-    - to be specified in $inches$ on the `PIPES` sub-tab within `MODIFY NETWORK`
+    - to be specified in *inches* on the `PIPES` sub-tab within `MODIFY NETWORK`
 
 
 Then you can directly proceed to the `DESIGN` side-tab and move to the `SOLVE` sub-tab. Click on the `SOLVE` button to perform optimization with the default settings. You can view the results on the `VISUALIZE` page. There are two options:
